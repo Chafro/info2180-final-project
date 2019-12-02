@@ -1,0 +1,237 @@
+#main{
+  background-color: #dddddd;
+}
+.colorD-T{
+  color: #6e6e6e;
+}
+
+.arrowD-T li {
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.arrowD-T {
+  list-style: none;
+}
+
+.arrowD-T li:before{
+   content: '';
+   position: absolute;
+   border-right:2px solid black;
+   border-bottom:2px solid black;
+   width:10px;
+   height:10px;
+   top: calc(50% - 4px);
+   left: -20px;
+   transform: translateY(-50%) rotate(-45deg);
+}
+.otherstats{
+  font-size: 28px;
+}
+.error{
+    color: red;
+    margin-left: 40px;
+}
+.main-header{
+    color: black;
+    text-align: center;
+    height: 200px;
+    background-color: black
+
+}
+.main-header-content{
+    border: 3px solid grey;
+    background-color:white; 
+    position: relative;
+    line-height: 80%;
+    width: 500px;
+    height: 80px;
+    top: 50px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+.grid-container-full-page{
+  display: grid;
+  grid-template-columns: 300px auto;
+  padding: 5px;
+  width: 100%x;
+
+}
+.main-content{
+margin-left: 20px;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+.header-table-page{
+  display: grid;
+  grid-template-columns: 60% auto;
+
+}
+.filterheader{
+  display: grid;
+  grid-template-columns: 60% auto;
+
+
+}
+.ticket-cont{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  padding: 5px;
+  width: 100%x;
+
+}
+
+.input{
+    border: solid black 1px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+}
+
+.inputlogin{
+    border: solid black 1px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.inputselect{
+    border: solid black 1px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+}
+.adduserform ul{
+    list-style-type: none;
+}
+.tablebtn{
+    color: white;
+    background-color: black;
+}
+
+.subbutton{
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    width: 200px;
+    padding: 6px;
+    background-color: black;
+    color: white;
+    font-family: "Calibri";
+    margin: auto;
+}
+.navbtn{ 
+   margin-bottom: 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-family: "Calibri";
+}
+.main-content ul{
+    list-style-type: none;
+    margin-left: -22px;
+}
+.main-content li{
+    font-family: "Calibri";
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+
+}
+.loginform ul{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.menu ul{
+    background-color: #B4B4B4;
+    list-style-type: none;
+    font-size: 12px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 200%;
+
+}
+
+.In.Progress span{
+
+    background-color: grey;
+    
+}
+
+.Closed span{ 
+    background-color: grey;
+    padding: 15px;
+    border-radius: 200px;
+    border: none;}
+
+.Open span{
+  color: white;
+  background-color: grey;
+  padding: 15px;
+  border-radius: 200px;
+  border: none;}
+}
+
+
+
+
+
+.menu{
+   
+    margin-left: -5px;
+}
+
+table.table1 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  border: 2px solid #000000;
+  background-color: #B4B4B4;
+  width: 100%;
+  min-width: 1000px;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.table1 td, table.table1 th {
+  border: 1px solid #3D3D3D;
+  padding: 3px 2px;
+}
+table.table1 tbody td {
+  font-size: 13px;
+  color: #000000;
+}
+table.table1 tr:nth-child(even) {
+  background: #C1C1C1;
+}
+table.table1 thead {
+  background: #9e9d9d;
+  border-bottom: 3px solid #000000;
+}
+table.table1 thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  border-left: 2px solid #4A4A4A;
+}
+table.table1 thead th:first-child {
+  border-left: none;
+}
+
+table.table1.scroll{
+  height: 700px
+  width: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
