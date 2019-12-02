@@ -10,7 +10,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <head>
         <title>BugMe Issue Tracker</title>
         <script  type="text/javascript" src="bugme.js" id="myscript"></script>
-        <link rel="stylesheet" type="text/css" href="basic_outline.css">
+        <link rel="stylesheet" type="text/css" href="bugme.css">
     </head>
     <body>
         <header class="main-header">
